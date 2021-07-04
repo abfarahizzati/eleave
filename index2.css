@@ -1,0 +1,45 @@
+.avatarStaff {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #00cc00;
+  border-radius: 50%;
+  position: absolute;
+  top: 200px;
+  left: calc(50% - 300px);
+  cursor: pointer;
+}
+
+.avatarAdmin {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #00cc00;
+  border-radius: 50%;
+  position: absolute;
+  top: 200px;
+  right: calc(50% - 300px);
+  cursor: pointer;
+}
+
+.staff{
+	position: absolute;
+	top: 310px;
+	left: calc(50% - 270px);
+	cursor: pointer;
+}
+
+.admin{
+	position: absolute;
+	top: 310px;
+	right: calc(50% - 280px);
+	cursor: pointer;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: url('greenn.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
